@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rspack build"
+  },
+  "dependencies": {
+    "@rspack/cli": "^0.4.3",
+    "@rspack/core": "^0.4.3"
+  }
+}
