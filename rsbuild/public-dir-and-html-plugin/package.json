@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rsbuild build"
+  },
+  "dependencies": {
+    "@rsbuild/core": "^0.2.5",
+    "typescript": "5"
+  }
+}

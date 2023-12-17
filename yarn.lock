@@ -5134,6 +5134,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"public-dir-and-html-plugin-79fb16@workspace:rsbuild/public-dir-and-html-plugin":
+  version: 0.0.0-use.local
+  resolution: "public-dir-and-html-plugin-79fb16@workspace:rsbuild/public-dir-and-html-plugin"
+  dependencies:
+    "@rsbuild/core": "npm:^0.2.5"
+    typescript: "npm:5"
+  languageName: unknown
+  linkType: soft
+
 "punycode@npm:^2.1.0":
   version: 2.3.1
   resolution: "punycode@npm:2.3.1"
