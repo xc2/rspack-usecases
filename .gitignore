@@ -1,3 +1,7 @@
+**/node_modules/.*
+**/node_modules/*
+!**/node_modules/@internals
+
 ### VisualStudioCode template
 .vscode/*
 !.vscode/settings.json
@@ -15,8 +19,6 @@
 ### Deno template
 /.idea/
 /.vscode/
-
-node_modules
 
 .env
 *.orig
@@ -276,7 +278,6 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)
