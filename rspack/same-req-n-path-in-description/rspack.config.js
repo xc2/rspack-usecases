@@ -2,6 +2,9 @@
 const config = {
   context: __dirname,
   entry: "./src/main.js",
+  resolve: {
+    aliasFields: ["browser"],
+  },
 };
 
 module.exports = config;

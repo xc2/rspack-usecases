@@ -1215,6 +1215,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@wasm-fmt/ruff_fmt@npm:^0.5.0":
+  version: 0.5.0
+  resolution: "@wasm-fmt/ruff_fmt@npm:0.5.0"
+  checksum: 943ebeb418afa13cec09680d2818e996e1fbd1d36de7d143c25d7cb4bfa18015d4b3bd095fe2ab095a519c6b923d866f6135fb4f5fb85aa35188bf97dd2bc044
+  languageName: node
+  linkType: hard
+
 "@webassemblyjs/ast@npm:1.11.6, @webassemblyjs/ast@npm:^1.11.5":
   version: 1.11.6
   resolution: "@webassemblyjs/ast@npm:1.11.6"
@@ -2185,6 +2192,17 @@ __metadata:
   checksum: c996b1cfdf95b6c90fee4dae37e332c8b6eb7d106430c17d538034c0ad9a1630cb194d2ab37293b1bdd4d779494beee7786d586a50bd9376fd6f7bcc2bd4c98f
   languageName: node
   linkType: hard
+
+"conditional-import-44a5aa@workspace:rspack/conditional-import":
+  version: 0.0.0-use.local
+  resolution: "conditional-import-44a5aa@workspace:rspack/conditional-import"
+  dependencies:
+    "@rspack/cli": "npm:^0.4.3"
+    "@rspack/core": "npm:^0.4.3"
+    "@wasm-fmt/ruff_fmt": "npm:^0.5.0"
+    webpack: "npm:5"
+  languageName: unknown
+  linkType: soft
 
 "connect-history-api-fallback@npm:2.0.0, connect-history-api-fallback@npm:^2.0.0":
   version: 2.0.0

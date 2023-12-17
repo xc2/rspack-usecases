@@ -11,8 +11,4 @@ export default defineConfig({
     },
     include: [/\.vue\.js$/],
   },
-
-  server: {
-    port: 8081,
-  },
 });
