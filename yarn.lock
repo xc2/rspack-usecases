@@ -339,6 +339,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@babel/runtime@npm:^7.10.5, @babel/runtime@npm:^7.7.2":
+  version: 7.23.6
+  resolution: "@babel/runtime@npm:7.23.6"
+  dependencies:
+    regenerator-runtime: "npm:^0.14.0"
+  checksum: d886954e985ef8e421222f7a2848884d96a752e0020d3078b920dd104e672fdf23bcc6f51a44313a048796319f1ac9d09c2c88ec8cbb4e1f09174bcd3335b9ff
+  languageName: node
+  linkType: hard
+
 "@babel/template@npm:^7.22.15":
   version: 7.22.15
   resolution: "@babel/template@npm:7.22.15"
@@ -3628,6 +3637,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"import-html-entry@npm:^1.15.1":
+  version: 1.15.2
+  resolution: "import-html-entry@npm:1.15.2"
+  dependencies:
+    "@babel/runtime": "npm:^7.7.2"
+  checksum: 3304c4564a73575971ce6111322843706986004b7bc94b1e99a0b8ae77f6f0aa583119b1825fc9daec09cc530b0bd925eedbb37700a75af24b2bf650d3d4a1f2
+  languageName: node
+  linkType: hard
+
 "import-local@npm:^3.0.2":
   version: 3.1.0
   resolution: "import-local@npm:3.1.0"
@@ -4132,7 +4150,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.20, lodash@npm:^4.17.21":
+"lodash@npm:^4.17.11, lodash@npm:^4.17.20, lodash@npm:^4.17.21":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: d8cbea072bb08655bb4c989da418994b073a608dffa608b09ac04b43a791b12aeae7cd7ad919aa4c925f33b48490b5cfe6c1f71d827956071dae2e7bb3a6b74c
@@ -4182,6 +4200,15 @@ __metadata:
   checksum: cb53e582785c48187d7a188d3379c181b5ca2a9c78d2bce3e7dee36f32761d1c42983da3fe12b55cb74e1779fa94cdc2e5367c028a9b35317184ede0c07a30a9
   languageName: node
   linkType: hard
+
+"main-841d5f@workspace:qiankun/main":
+  version: 0.0.0-use.local
+  resolution: "main-841d5f@workspace:qiankun/main"
+  dependencies:
+    "@rsbuild/core": "npm:^0.2.9"
+    qiankun: "npm:^2.10.16"
+  languageName: unknown
+  linkType: soft
 
 "make-fetch-happen@npm:^13.0.0":
   version: 13.0.0
@@ -4286,6 +4313,18 @@ __metadata:
   checksum: bdf7cc72ff0a33e3eede03708c08983c4d7a173f91348b4b1e4f47d4cdbf734433ad971e7d1e8c77247d9e5cd8adb81ea4c67b0a2db526b758b2233d7814b8b2
   languageName: node
   linkType: hard
+
+"micro-vue-f83fc1@workspace:qiankun/micro-vue":
+  version: 0.0.0-use.local
+  resolution: "micro-vue-f83fc1@workspace:qiankun/micro-vue"
+  dependencies:
+    "@rsbuild/core": "npm:^0.2.9"
+    "@rsbuild/plugin-umd": "npm:^0.2.9"
+    "@rsbuild/plugin-vue2": "npm:^0.2.9"
+    typescript: "npm:5"
+    vue: "npm:2"
+  languageName: unknown
+  linkType: soft
 
 "micromatch@npm:3.1.0":
   version: 3.1.0
@@ -5142,6 +5181,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"qiankun@npm:^2.10.16":
+  version: 2.10.16
+  resolution: "qiankun@npm:2.10.16"
+  dependencies:
+    "@babel/runtime": "npm:^7.10.5"
+    import-html-entry: "npm:^1.15.1"
+    lodash: "npm:^4.17.11"
+    single-spa: "npm:^5.9.2"
+  checksum: 0662eb80365547fc9f861e942912bbf46760aad672ea1c6328c5d06ab4beb566a083fa087209ead67f8d327629781abc7e502d75e69bc3456680d40151b45d6c
+  languageName: node
+  linkType: hard
+
 "qs@npm:6.10.3":
   version: 6.10.3
   resolution: "qs@npm:6.10.3"
@@ -5246,6 +5297,13 @@ __metadata:
   dependencies:
     resolve: "npm:^1.20.0"
   checksum: 1a30074124a22abbd5d44d802dac26407fa72a0a95f162aa5504ba8246bc5452f8b1a027b154d9bdbabcd8764920ff9333d934c46a8f17479c8912e92332f3ff
+  languageName: node
+  linkType: hard
+
+"regenerator-runtime@npm:^0.14.0":
+  version: 0.14.1
+  resolution: "regenerator-runtime@npm:0.14.1"
+  checksum: 1b16eb2c4bceb1665c89de70dcb64126a22bc8eb958feef3cd68fe11ac6d2a4899b5cd1b80b0774c7c03591dc57d16631a7f69d2daa2ec98100e2f29f7ec4cc4
   languageName: node
   linkType: hard
 
@@ -5641,6 +5699,13 @@ __metadata:
   version: 4.1.0
   resolution: "signal-exit@npm:4.1.0"
   checksum: 41602dce540e46d599edba9d9860193398d135f7ff72cab629db5171516cfae628d21e7bfccde1bbfdf11c48726bc2a6d1a8fb8701125852fbfda7cf19c6aa83
+  languageName: node
+  linkType: hard
+
+"single-spa@npm:^5.9.2":
+  version: 5.9.5
+  resolution: "single-spa@npm:5.9.5"
+  checksum: 920e2fe32b82b2bccc505d84061cc0fb9272410a10d344bcb6422c8cba7247e66e7de1e68b0f81b3a41c91f366bd2373ea65314ae777f12dd2e0aa201c97e9da
   languageName: node
   linkType: hard
 

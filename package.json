@@ -3,7 +3,8 @@
   "packageManager": "yarn@4.0.2",
   "workspaces": [
     "rspack/*",
-    "rsbuild/*"
+    "rsbuild/*",
+    "qiankun/*"
   ],
   "dependencies": {
     "oxlint": "^0.0.20",
