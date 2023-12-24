@@ -6482,6 +6482,7 @@ __metadata:
     "@rsbuild/plugin-umd": "npm:^0.2.9"
     "@rsbuild/plugin-vue2": "npm:^0.2.9"
     typescript: "npm:5"
+    vue: "npm:2"
   languageName: unknown
   linkType: soft
 
