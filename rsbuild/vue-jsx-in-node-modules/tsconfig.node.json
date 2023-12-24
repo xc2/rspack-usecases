@@ -1,7 +1,8 @@
 {
   "compilerOptions": {
+    "composite": true,
     "module": "NodeNext",
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "NodeNext"
   },
   "include": ["rsbuild.config.ts"]
 }
