@@ -4319,7 +4319,6 @@ __metadata:
   resolution: "micro-vue-f83fc1@workspace:qiankun/micro-vue"
   dependencies:
     "@rsbuild/core": "npm:^0.2.9"
-    "@rsbuild/plugin-umd": "npm:^0.2.9"
     "@rsbuild/plugin-vue2": "npm:^0.2.9"
     typescript: "npm:5"
     vue: "npm:2"
