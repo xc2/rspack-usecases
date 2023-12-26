@@ -1,0 +1,8 @@
+{
+  "name": "Setup",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:1-20-bullseye",
+  "features": {},
+  "forwardPorts": [],
+  "postCreateCommand": "yarn install",
+  "customizations": {}
+}
