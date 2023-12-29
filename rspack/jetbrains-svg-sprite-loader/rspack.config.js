@@ -7,7 +7,13 @@ const config = {
     rules: [
       {
         test: /\.svg$/,
-        use: ["svg-sprite-loader", "svgo-loader"],
+        use: [
+          {
+            loader: require.resolve("./workaround-svg-sprite-loader"),
+            options: {},
+          },
+          "svgo-loader",
+        ],
       },
     ],
   },
