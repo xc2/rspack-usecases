@@ -4,8 +4,8 @@
     "build": "rspack build"
   },
   "dependencies": {
-    "@rspack/cli": "0.4.4",
-    "@rspack/core": "0.4.4",
+    "@rspack/cli": "0.4.5",
+    "@rspack/core": "0.4.5",
     "heroicons": "^2.0.18",
     "svg-sprite-loader": "^6.0.11",
     "svgo-loader": "^4.0.0"

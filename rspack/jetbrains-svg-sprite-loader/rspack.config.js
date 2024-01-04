@@ -2,6 +2,7 @@ const rspack = require("@rspack/core");
 
 /** @type {import('@rspack/core').Configuration} */
 const config = {
+  mode: "development",
   entry: { index: "./src/index.js", index2: "./src/index2.js" },
   module: {
     rules: [
