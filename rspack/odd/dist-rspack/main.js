@@ -10,9 +10,9 @@ __webpack_require__.d(__webpack_exports__, {
 });
  const foo = {
     bar () {
-        this.ccc = 1;
-        this.ccc = 1;
-        this.aaa["0"].bbb.ccc = 1;
+        this.aaa[index].bbb.ccc = 1;
+        this.aaa[index + 1].bbb.ccc = 1;
+        this.aaa[0].bbb.ccc = 1;
         this.aaa.foo.bbb.ccc = 1;
     }
 };
@@ -42,7 +42,7 @@ function __webpack_require__(moduleId) {
        exports: {}
       });
       // Execute the module function
-      __webpack_modules__[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+      __webpack_modules__[moduleId](module, module.exports, __webpack_require__);
 // Return the exports of the module
  return module.exports;
 

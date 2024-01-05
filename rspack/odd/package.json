@@ -6,8 +6,8 @@
     "all": "rspack build && webpack --config rspack.config.js"
   },
   "dependencies": {
-    "@rspack/cli": "0.4.5",
-    "@rspack/core": "0.4.5",
+    "@rspack/cli": "nightly",
+    "@rspack/core": "nightly",
     "webpack": "5"
   }
 }

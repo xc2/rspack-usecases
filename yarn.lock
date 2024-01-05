@@ -478,12 +478,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@module-federation/runtime-tools@npm:0.0.0-next-20240102063242":
+  version: 0.0.0-next-20240102063242
+  resolution: "@module-federation/runtime-tools@npm:0.0.0-next-20240102063242"
+  dependencies:
+    "@module-federation/runtime": "npm:0.0.0-next-20240102063242"
+    "@module-federation/webpack-bundler-runtime": "npm:0.0.0-next-20240102063242"
+  checksum: f5ffd538d1f0262aa495e4597cdc6468b6b398097d72f7c3d7ba3b5c9324ea62e5903a499f5468ef54435c2e1e92f5cecb8901394bde8255425701b5c41a3752
+  languageName: node
+  linkType: hard
+
 "@module-federation/runtime@npm:0.0.0-next-20231225095220":
   version: 0.0.0-next-20231225095220
   resolution: "@module-federation/runtime@npm:0.0.0-next-20231225095220"
   dependencies:
     "@module-federation/sdk": "npm:0.0.0-next-20231225095220"
   checksum: 3e6bfa08b4d0ba2def725812ba82c50ef521f86288ce2d93a41ff7c2823079aa49a7f0adef243b93f2edf94ac10c57d99acdb3d519bca91b7d54d887c5f68b5b
+  languageName: node
+  linkType: hard
+
+"@module-federation/runtime@npm:0.0.0-next-20240102063242":
+  version: 0.0.0-next-20240102063242
+  resolution: "@module-federation/runtime@npm:0.0.0-next-20240102063242"
+  dependencies:
+    "@module-federation/sdk": "npm:0.0.0-next-20240102063242"
+  checksum: 8d2444797566f40ddf51fd42c3118e72b2307114410cba374d0e1413b07b010338f5052a581728f368537d41a27edefd636fc44ae5e2bef51edde824ca9f1cb2
   languageName: node
   linkType: hard
 
@@ -494,6 +513,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@module-federation/sdk@npm:0.0.0-next-20240102063242":
+  version: 0.0.0-next-20240102063242
+  resolution: "@module-federation/sdk@npm:0.0.0-next-20240102063242"
+  checksum: f4fafe67139c0b9b3f4c52c83b6c053364df9e44260f80a1665edd1cf4118f1d2be920c7a21aa8c9e740e4c59c14c1f62e9ee8860de5f76b6da04921a9a9dd56
+  languageName: node
+  linkType: hard
+
 "@module-federation/webpack-bundler-runtime@npm:0.0.0-next-20231225095220":
   version: 0.0.0-next-20231225095220
   resolution: "@module-federation/webpack-bundler-runtime@npm:0.0.0-next-20231225095220"
@@ -501,6 +527,16 @@ __metadata:
     "@module-federation/runtime": "npm:0.0.0-next-20231225095220"
     "@module-federation/sdk": "npm:0.0.0-next-20231225095220"
   checksum: ea9647bb2c1c94ff87bb5c3a57f3d8aa8c8058ea301498b33d6a8a3920cf24e31d2b680bd46c847a2fa520247f6bdc13df727d4d68a9076a14e00fdb64ad3f71
+  languageName: node
+  linkType: hard
+
+"@module-federation/webpack-bundler-runtime@npm:0.0.0-next-20240102063242":
+  version: 0.0.0-next-20240102063242
+  resolution: "@module-federation/webpack-bundler-runtime@npm:0.0.0-next-20240102063242"
+  dependencies:
+    "@module-federation/runtime": "npm:0.0.0-next-20240102063242"
+    "@module-federation/sdk": "npm:0.0.0-next-20240102063242"
+  checksum: aa6d44d24f8fb9132a6023931b6cb0a13503f2973c755591aea7ae8a36e92c38f839b812182a0cf1f60698418cc5de8d17580240a1b0fbca4c720321ecdf64dd
   languageName: node
   linkType: hard
 
@@ -664,9 +700,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rspack/binding-darwin-arm64@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/binding-darwin-arm64@npm:0.4.5-canary-068158d-20240105054418"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "@rspack/binding-darwin-x64@npm:0.4.5":
   version: 0.4.5
   resolution: "@rspack/binding-darwin-x64@npm:0.4.5"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@rspack/binding-darwin-x64@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/binding-darwin-x64@npm:0.4.5-canary-068158d-20240105054418"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
@@ -678,9 +728,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rspack/binding-linux-arm64-gnu@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/binding-linux-arm64-gnu@npm:0.4.5-canary-068158d-20240105054418"
+  conditions: os=linux & cpu=arm64 & libc=glibc
+  languageName: node
+  linkType: hard
+
 "@rspack/binding-linux-arm64-musl@npm:0.4.5":
   version: 0.4.5
   resolution: "@rspack/binding-linux-arm64-musl@npm:0.4.5"
+  conditions: os=linux & cpu=arm64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@rspack/binding-linux-arm64-musl@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/binding-linux-arm64-musl@npm:0.4.5-canary-068158d-20240105054418"
   conditions: os=linux & cpu=arm64 & libc=musl
   languageName: node
   linkType: hard
@@ -692,9 +756,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rspack/binding-linux-x64-gnu@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/binding-linux-x64-gnu@npm:0.4.5-canary-068158d-20240105054418"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
 "@rspack/binding-linux-x64-musl@npm:0.4.5":
   version: 0.4.5
   resolution: "@rspack/binding-linux-x64-musl@npm:0.4.5"
+  conditions: os=linux & cpu=x64 & libc=musl
+  languageName: node
+  linkType: hard
+
+"@rspack/binding-linux-x64-musl@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/binding-linux-x64-musl@npm:0.4.5-canary-068158d-20240105054418"
   conditions: os=linux & cpu=x64 & libc=musl
   languageName: node
   linkType: hard
@@ -706,6 +784,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rspack/binding-win32-arm64-msvc@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/binding-win32-arm64-msvc@npm:0.4.5-canary-068158d-20240105054418"
+  conditions: os=win32 & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "@rspack/binding-win32-ia32-msvc@npm:0.4.5":
   version: 0.4.5
   resolution: "@rspack/binding-win32-ia32-msvc@npm:0.4.5"
@@ -713,9 +798,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rspack/binding-win32-ia32-msvc@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/binding-win32-ia32-msvc@npm:0.4.5-canary-068158d-20240105054418"
+  conditions: os=win32 & cpu=ia32
+  languageName: node
+  linkType: hard
+
 "@rspack/binding-win32-x64-msvc@npm:0.4.5":
   version: 0.4.5
   resolution: "@rspack/binding-win32-x64-msvc@npm:0.4.5"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@rspack/binding-win32-x64-msvc@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/binding-win32-x64-msvc@npm:0.4.5-canary-068158d-20240105054418"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -756,6 +855,42 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rspack/binding@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/binding@npm:0.4.5-canary-068158d-20240105054418"
+  dependencies:
+    "@rspack/binding-darwin-arm64": "npm:0.4.5-canary-068158d-20240105054418"
+    "@rspack/binding-darwin-x64": "npm:0.4.5-canary-068158d-20240105054418"
+    "@rspack/binding-linux-arm64-gnu": "npm:0.4.5-canary-068158d-20240105054418"
+    "@rspack/binding-linux-arm64-musl": "npm:0.4.5-canary-068158d-20240105054418"
+    "@rspack/binding-linux-x64-gnu": "npm:0.4.5-canary-068158d-20240105054418"
+    "@rspack/binding-linux-x64-musl": "npm:0.4.5-canary-068158d-20240105054418"
+    "@rspack/binding-win32-arm64-msvc": "npm:0.4.5-canary-068158d-20240105054418"
+    "@rspack/binding-win32-ia32-msvc": "npm:0.4.5-canary-068158d-20240105054418"
+    "@rspack/binding-win32-x64-msvc": "npm:0.4.5-canary-068158d-20240105054418"
+  dependenciesMeta:
+    "@rspack/binding-darwin-arm64":
+      optional: true
+    "@rspack/binding-darwin-x64":
+      optional: true
+    "@rspack/binding-linux-arm64-gnu":
+      optional: true
+    "@rspack/binding-linux-arm64-musl":
+      optional: true
+    "@rspack/binding-linux-x64-gnu":
+      optional: true
+    "@rspack/binding-linux-x64-musl":
+      optional: true
+    "@rspack/binding-win32-arm64-msvc":
+      optional: true
+    "@rspack/binding-win32-ia32-msvc":
+      optional: true
+    "@rspack/binding-win32-x64-msvc":
+      optional: true
+  checksum: 7f87720b944cd15b1863916eb65d580729d176d650f6a97ef50813de5e5d6034dc666c8668527b83f4500e6a23c36ff5685dae1861ff61d00eb92e883fbd61a2
+  languageName: node
+  linkType: hard
+
 "@rspack/cli@npm:0.4.5, @rspack/cli@npm:^0.4.5":
   version: 0.4.5
   resolution: "@rspack/cli@npm:0.4.5"
@@ -774,6 +909,27 @@ __metadata:
   bin:
     rspack: bin/rspack
   checksum: c99f4b0584bcf489ea3b107b52f5b9cef6dc34a6f7419371aedac245e8972e606f47ed2db0ae046dad461b0fb0957164a880f29c5c599cf0d29cd8d6f8ca06bf
+  languageName: node
+  linkType: hard
+
+"@rspack/cli@npm:nightly":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/cli@npm:0.4.5-canary-068158d-20240105054418"
+  dependencies:
+    "@discoveryjs/json-ext": "npm:^0.5.7"
+    "@rspack/dev-server": "npm:0.4.5-canary-068158d-20240105054418"
+    colorette: "npm:2.0.19"
+    exit-hook: "npm:^3.2.0"
+    interpret: "npm:^3.1.1"
+    rechoir: "npm:^0.8.0"
+    semver: "npm:6.3.1"
+    webpack-bundle-analyzer: "npm:4.6.1"
+    yargs: "npm:17.6.2"
+  peerDependencies:
+    "@rspack/core": ">=0.4.0"
+  bin:
+    rspack: bin/rspack
+  checksum: 78e300cd69ece300ecdb9efbc5d3683a5386c153c3f423315fae900975e363e3a6f6706aac61aa546db8c026616719e6177fd715d76d66693cdb3ff8e1f1cd11
   languageName: node
   linkType: hard
 
@@ -801,6 +957,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rspack/core@npm:nightly":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/core@npm:0.4.5-canary-068158d-20240105054418"
+  dependencies:
+    "@module-federation/runtime-tools": "npm:0.0.0-next-20240102063242"
+    "@rspack/binding": "npm:0.4.5-canary-068158d-20240105054418"
+    "@swc/helpers": "npm:0.5.1"
+    browserslist: "npm:^4.21.3"
+    compare-versions: "npm:6.0.0-rc.1"
+    enhanced-resolve: "npm:5.12.0"
+    graceful-fs: "npm:4.2.10"
+    json-parse-even-better-errors: "npm:^3.0.0"
+    neo-async: "npm:2.6.2"
+    react-refresh: "npm:0.14.0"
+    tapable: "npm:2.2.1"
+    terminal-link: "npm:^2.1.1"
+    watchpack: "npm:^2.4.0"
+    webpack-sources: "npm:3.2.3"
+    zod: "npm:^3.21.4"
+    zod-validation-error: "npm:1.3.1"
+  checksum: fd27a149f143cc14497d3c6947f06b08d345791d3515c19749f77ae8dfe8f4705bbc04f9fd64188ebe258d7515405e673629ace4c160efa1dcef859b0f51da67
+  languageName: node
+  linkType: hard
+
 "@rspack/dev-server@npm:0.4.5":
   version: 0.4.5
   resolution: "@rspack/dev-server@npm:0.4.5"
@@ -818,6 +998,25 @@ __metadata:
   peerDependencies:
     "@rspack/core": "*"
   checksum: d32a1ce5b6ba79fc08fb9e8ca3083ca5cf4cee1d4ca93fdb1dc4d50b45c0f7aa0d01711577fadcc182da41147f85112d361b063bbd1edda8c56ffee701a37fa2
+  languageName: node
+  linkType: hard
+
+"@rspack/dev-server@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/dev-server@npm:0.4.5-canary-068158d-20240105054418"
+  dependencies:
+    "@rspack/plugin-react-refresh": "npm:0.4.5-canary-068158d-20240105054418"
+    chokidar: "npm:3.5.3"
+    connect-history-api-fallback: "npm:2.0.0"
+    express: "npm:4.18.1"
+    http-proxy-middleware: "npm:2.0.6"
+    mime-types: "npm:2.1.35"
+    webpack-dev-middleware: "npm:6.0.2"
+    webpack-dev-server: "npm:4.13.1"
+    ws: "npm:8.8.1"
+  peerDependencies:
+    "@rspack/core": "*"
+  checksum: 360005f699da5a02932ebbeadcaa3ae29eccaa02bd436d913259727b69053ce350adcac6fe2cbfd02990d7732e7892ab7da48e17fdb770af9841f776c7f0520f
   languageName: node
   linkType: hard
 
@@ -847,6 +1046,18 @@ __metadata:
     react-refresh:
       optional: true
   checksum: c80dc47776923b52e2b4216192eb440259ca5e50010b2c87ec7fa015f1afb8197f256ca025ae22d7806e5ed1712d93505906faacf65cbf6e6b34667f16e2e287
+  languageName: node
+  linkType: hard
+
+"@rspack/plugin-react-refresh@npm:0.4.5-canary-068158d-20240105054418":
+  version: 0.4.5-canary-068158d-20240105054418
+  resolution: "@rspack/plugin-react-refresh@npm:0.4.5-canary-068158d-20240105054418"
+  peerDependencies:
+    react-refresh: ">=0.10.0 <1.0.0"
+  peerDependenciesMeta:
+    react-refresh:
+      optional: true
+  checksum: 867e1956537ef9425e24927eef752b2086f45b7b7a517651cd00b20336b8a9781930ca327197d9cc60cadecea8d8b0285ce410e1291b3a952da1e026d713a2df
   languageName: node
   linkType: hard
 
@@ -4790,8 +5001,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "odd-3ba9c7@workspace:rspack/odd"
   dependencies:
-    "@rspack/cli": "npm:0.4.5"
-    "@rspack/core": "npm:0.4.5"
+    "@rspack/cli": "npm:nightly"
+    "@rspack/core": "npm:nightly"
     webpack: "npm:5"
   languageName: unknown
   linkType: soft
