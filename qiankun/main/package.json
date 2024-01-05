@@ -4,7 +4,7 @@
     "start": "rsbuild dev"
   },
   "dependencies": {
-    "@rsbuild/core": "^0.2.9",
+    "@rsbuild/core": "0.2.17",
     "qiankun": "^2.10.16"
   }
 }
