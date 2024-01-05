@@ -4786,6 +4786,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"odd-3ba9c7@workspace:rspack/odd":
+  version: 0.0.0-use.local
+  resolution: "odd-3ba9c7@workspace:rspack/odd"
+  dependencies:
+    "@rspack/cli": "npm:0.4.5"
+    "@rspack/core": "npm:0.4.5"
+    webpack: "npm:5"
+  languageName: unknown
+  linkType: soft
+
 "on-finished@npm:2.4.1":
   version: 2.4.1
   resolution: "on-finished@npm:2.4.1"

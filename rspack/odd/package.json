@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rspack build",
+    "wp": "webpack --config rspack.config.js",
+    "all": "rspack build && webpack --config rspack.config.js"
+  },
+  "dependencies": {
+    "@rspack/cli": "0.4.5",
+    "@rspack/core": "0.4.5",
+    "webpack": "5"
+  }
+}
