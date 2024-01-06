@@ -4220,6 +4220,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jetbrains-svg-sprite-loader-5eab60@workspace:rsbuild/jetbrains-svg-sprite-loader":
+  version: 0.0.0-use.local
+  resolution: "jetbrains-svg-sprite-loader-5eab60@workspace:rsbuild/jetbrains-svg-sprite-loader"
+  dependencies:
+    "@rsbuild/core": "npm:0.2.17"
+    heroicons: "npm:^2.0.18"
+    svg-sprite-loader: "npm:^6.0.11"
+    svgo-loader: "npm:^4.0.0"
+    typescript: "npm:5"
+  languageName: unknown
+  linkType: soft
+
 "jetbrains-svg-sprite-loader-bf927d@workspace:rspack/jetbrains-svg-sprite-loader":
   version: 0.0.0-use.local
   resolution: "jetbrains-svg-sprite-loader-bf927d@workspace:rspack/jetbrains-svg-sprite-loader"
