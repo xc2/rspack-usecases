@@ -4,9 +4,9 @@
     "build": "rspack build"
   },
   "dependencies": {
-    "@rspack/cli": "0.4.5",
-    "@rspack/core": "0.4.5",
-    "@rspack/plugin-html": "0.4.5",
+    "@rspack/cli": "0.5.1",
+    "@rspack/core": "0.5.1",
+    "@rspack/plugin-html": "0.5.1",
     "escape-string-regexp": "^4.0.0"
   }
 }
