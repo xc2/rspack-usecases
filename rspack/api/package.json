@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "dependencies": {
+    "@rspack/cli": "0.5.1",
+    "@rspack/core": "0.5.1",
+    "@rspack/plugin-react-refresh": "0.5.1",
+    "@types/react": "18",
+    "@types/react-dom": "18",
+    "express": "^4.18.2",
+    "html-webpack-plugin": "^5.6.0",
+    "react": "18",
+    "react-dom": "18",
+    "react-refresh": "^0.14.0",
+    "webpack": "5",
+    "webpack-dev-middleware": "^7.0.0",
+    "webpack-hot-middleware": "^2.26.0"
+  }
+}
