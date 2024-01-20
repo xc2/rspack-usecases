@@ -1,4 +1,5 @@
-import { foo } from "./foo";
+import "./style.less";
+import { changeme } from "./changeme";
 export function Bar() {
-  return <div>bar: {foo}</div>;
+  return <div>React Refresh: {changeme}</div>;
 }
