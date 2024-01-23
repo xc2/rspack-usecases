@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@rsbuild/core": "0.3.5",
+    "css-loader": "^6.9.1",
     "typescript": "5"
   }
 }

@@ -1,7 +1,9 @@
 // inject css
-import "./foo.css";
+// import source from "./foo.css";
 // load source only
 import source from "./foo.css?type=source";
+
+console.log(source);
 
 const pre = document.createElement("pre");
 

@@ -5,9 +5,20 @@ export default defineConfig({
     cleanDistPath: true,
   },
   tools: {
+    bundlerChain(chain, utils) {
+      // remove rsbuild builtin css rules
+      chain.module.rules.delete("css");
+    },
     rspack: {
       module: {
-        rules: [{ resourceQuery: /type=source/, type: "asset/source" }],
+        rules: [
+          {
+            test: /\.css$/,
+            use: ["css-loader"],
+            resourceQuery: /type=source/,
+            type: "asset/source",
+          },
+        ],
       },
     },
   },
