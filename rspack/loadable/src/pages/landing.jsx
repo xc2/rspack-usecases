@@ -1,7 +1,8 @@
-import "../style.less";
+import S from "./landing.scss";
 import { changeme } from "../changeme";
-import loadable, { lazy } from "@loadable/component";
-import { Suspense, useState } from "react";
+import loadable from "@loadable/component";
+
+console.log(S);
 
 const LodashLib = loadable.lib(
   () => import(/* webpackPrefetch: true */ "lodash"),
@@ -14,10 +15,11 @@ const ContentComponent = loadable(() =>
 );
 
 export function Landing() {
-  const [show, setShow] = useState(false);
   return (
-    <div>
-      <section>React Refresh: {changeme}</section>
+    <div className={S.foo}>
+      <section style={{ color: S.darkColor }}>
+        React Refresh: {changeme}
+      </section>
       <section>
         <LodashLib fallback={`loading: ${changeme}`}>
           {({ default: _ }) =>
@@ -27,12 +29,7 @@ export function Landing() {
       </section>
 
       <section>
-        <button type="button" onClick={() => setShow((old) => !old)}>
-          show content component
-        </button>
-        {!show || (
-          <ContentComponent fallback={<div>loading content component</div>} />
-        )}
+        <ContentComponent fallback={<div>loading content component</div>} />
       </section>
     </div>
   );

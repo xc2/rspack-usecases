@@ -1,0 +1,15 @@
+$base-color: #c6538c;
+$dark-color: rgba($base-color, 0.88);
+@value darkColor: white;
+
+.foo {
+  color: $dark-color;
+}
+
+body {
+  background: black;
+  color: white;
+}
+:export {
+  $white: white;
+}

@@ -5,8 +5,8 @@
     "wp": "webpack --config rspack.config.js"
   },
   "dependencies": {
-    "@rspack/cli": "0.5.1",
-    "@rspack/core": "0.5.1",
+    "@rspack/cli": "0.5.2-canary-10e7787-20240124092141",
+    "@rspack/core": "0.5.2-canary-10e7787-20240124092141",
     "webpack": "5"
   }
 }

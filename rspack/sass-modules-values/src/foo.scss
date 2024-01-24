@@ -1,0 +1,40 @@
+/**
+ * 1. native sass variable
+ * css-loader: no
+ * rspack css/module: no
+ */
+$scss-var: #f00;
+
+/**
+ * 2. css modules variables @{link https://github.com/css-modules/css-modules/blob/master/docs/values-variables.md}
+ * css-loader: yes
+ * rspack css/module: no
+ */
+@value css-module-var: #f00;
+
+html {
+  /**
+   * 3. native css variables
+   * css-loader: no
+   * rspack css/module: no
+   */
+  --css-var: #0f0;
+}
+
+:export {
+  /**
+   * 4. scss export
+   * css-loader: yes
+   * rspack css/module: no
+   */
+  scss-var-in-export: #00f;
+}
+
+/**
+ * 5. css class name
+ * css-loader: yes
+ * rspack css/module: yes
+ */
+.foo {
+  color: $scss-var;
+}

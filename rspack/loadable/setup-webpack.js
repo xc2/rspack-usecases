@@ -38,12 +38,28 @@ function getWebpackConfig(server = false) {
       server ? null : new ReactRefreshPlugin(),
       new LoadablePlugin({ filename: Demo.statsFilename }),
     ].filter(Boolean),
+    builtins: {
+      css: {
+        modules: {
+          localIdentName: "[name]__[local]",
+          exportsOnly: server,
+        },
+      },
+    },
     module: {
       rules: [
         {
-          test: /\.less$/,
-          use: [{ loader: "less-loader" }],
-          type: "css/auto",
+          test: /\.scss$/,
+          use: [
+            {
+              loader: "postcss-loader",
+              options: {
+                postcssOptions: { plugins: ["postcss-modules-values"] },
+              },
+            },
+            { loader: "sass-loader" },
+          ],
+          type: "css/module",
         },
         {
           test: /\.jsx$/,

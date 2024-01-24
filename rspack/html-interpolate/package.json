@@ -4,9 +4,9 @@
     "build": "rspack build"
   },
   "dependencies": {
-    "@rspack/cli": "0.5.1",
-    "@rspack/core": "0.5.1",
-    "@rspack/plugin-html": "0.5.1",
+    "@rspack/cli": "0.5.2-canary-10e7787-20240124092141",
+    "@rspack/core": "0.5.2-canary-10e7787-20240124092141",
+    "@rspack/plugin-html": "0.5.2-canary-10e7787-20240124092141",
     "escape-string-regexp": "^4.0.0"
   }
 }
