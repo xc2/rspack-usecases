@@ -1,7 +1,7 @@
 import { hydrateRoot } from "react-dom/client";
-import { Root } from "./root";
+import { Landing } from "./pages/landing";
 import { loadableReady } from "@loadable/component";
 
 loadableReady(() => {
-  hydrateRoot(document.querySelector("#react"), <Root />);
+  hydrateRoot(document.querySelector("#react"), <Landing />);
 });

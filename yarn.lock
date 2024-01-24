@@ -795,6 +795,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rspack/binding-darwin-arm64@npm:0.5.2-canary-10e7787-20240124092141":
+  version: 0.5.2-canary-10e7787-20240124092141
+  resolution: "@rspack/binding-darwin-arm64@npm:0.5.2-canary-10e7787-20240124092141"
+  conditions: os=darwin & cpu=arm64
+  languageName: node
+  linkType: hard
+
 "@rspack/binding-darwin-x64@npm:0.5.0":
   version: 0.5.0
   resolution: "@rspack/binding-darwin-x64@npm:0.5.0"
@@ -805,6 +812,13 @@ __metadata:
 "@rspack/binding-darwin-x64@npm:0.5.1":
   version: 0.5.1
   resolution: "@rspack/binding-darwin-x64@npm:0.5.1"
+  conditions: os=darwin & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@rspack/binding-darwin-x64@npm:0.5.2-canary-10e7787-20240124092141":
+  version: 0.5.2-canary-10e7787-20240124092141
+  resolution: "@rspack/binding-darwin-x64@npm:0.5.2-canary-10e7787-20240124092141"
   conditions: os=darwin & cpu=x64
   languageName: node
   linkType: hard
@@ -847,6 +861,13 @@ __metadata:
 "@rspack/binding-linux-x64-gnu@npm:0.5.1":
   version: 0.5.1
   resolution: "@rspack/binding-linux-x64-gnu@npm:0.5.1"
+  conditions: os=linux & cpu=x64 & libc=glibc
+  languageName: node
+  linkType: hard
+
+"@rspack/binding-linux-x64-gnu@npm:0.5.2-canary-10e7787-20240124092141":
+  version: 0.5.2-canary-10e7787-20240124092141
+  resolution: "@rspack/binding-linux-x64-gnu@npm:0.5.2-canary-10e7787-20240124092141"
   conditions: os=linux & cpu=x64 & libc=glibc
   languageName: node
   linkType: hard
@@ -903,6 +924,13 @@ __metadata:
 "@rspack/binding-win32-x64-msvc@npm:0.5.1":
   version: 0.5.1
   resolution: "@rspack/binding-win32-x64-msvc@npm:0.5.1"
+  conditions: os=win32 & cpu=x64
+  languageName: node
+  linkType: hard
+
+"@rspack/binding-win32-x64-msvc@npm:0.5.2-canary-10e7787-20240124092141":
+  version: 0.5.2-canary-10e7787-20240124092141
+  resolution: "@rspack/binding-win32-x64-msvc@npm:0.5.2-canary-10e7787-20240124092141"
   conditions: os=win32 & cpu=x64
   languageName: node
   linkType: hard
@@ -979,6 +1007,27 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rspack/binding@npm:0.5.2-canary-10e7787-20240124092141":
+  version: 0.5.2-canary-10e7787-20240124092141
+  resolution: "@rspack/binding@npm:0.5.2-canary-10e7787-20240124092141"
+  dependencies:
+    "@rspack/binding-darwin-arm64": "npm:0.5.2-canary-10e7787-20240124092141"
+    "@rspack/binding-darwin-x64": "npm:0.5.2-canary-10e7787-20240124092141"
+    "@rspack/binding-linux-x64-gnu": "npm:0.5.2-canary-10e7787-20240124092141"
+    "@rspack/binding-win32-x64-msvc": "npm:0.5.2-canary-10e7787-20240124092141"
+  dependenciesMeta:
+    "@rspack/binding-darwin-arm64":
+      optional: true
+    "@rspack/binding-darwin-x64":
+      optional: true
+    "@rspack/binding-linux-x64-gnu":
+      optional: true
+    "@rspack/binding-win32-x64-msvc":
+      optional: true
+  checksum: f4183913fe99dbcd264b03704c2aa05b2534d0bdf7fcf6eddc671da798ba09004cf8f924ba82a8a583690dc97b1d29e694537eb95cd7db7f0e809d116e3e4a84
+  languageName: node
+  linkType: hard
+
 "@rspack/cli@npm:0.5.1":
   version: 0.5.1
   resolution: "@rspack/cli@npm:0.5.1"
@@ -997,6 +1046,27 @@ __metadata:
   bin:
     rspack: bin/rspack
   checksum: f0e75bdb5bc3462e85251ccad4294a1f3a1865897e43c483919b2a00f6286fbe7280f5ec761cc3fc5633b51567eb5d4da58f36c91d15cda7e8ec21d4cf1ab8e6
+  languageName: node
+  linkType: hard
+
+"@rspack/cli@npm:0.5.2-canary-10e7787-20240124092141":
+  version: 0.5.2-canary-10e7787-20240124092141
+  resolution: "@rspack/cli@npm:0.5.2-canary-10e7787-20240124092141"
+  dependencies:
+    "@discoveryjs/json-ext": "npm:^0.5.7"
+    "@rspack/dev-server": "npm:0.5.2-canary-10e7787-20240124092141"
+    colorette: "npm:2.0.19"
+    exit-hook: "npm:^3.2.0"
+    interpret: "npm:^3.1.1"
+    rechoir: "npm:^0.8.0"
+    semver: "npm:6.3.1"
+    webpack-bundle-analyzer: "npm:4.6.1"
+    yargs: "npm:17.6.2"
+  peerDependencies:
+    "@rspack/core": ">=0.4.0"
+  bin:
+    rspack: bin/rspack
+  checksum: d200b1e0b1563fedb1b33ffb0d3cf6c976fb4e652e1d7996985bd38e96100681308b273d2c86833764056d5c501a85090233d1df0a6bf0ce2a6f9798f506c5ed
   languageName: node
   linkType: hard
 
@@ -1052,6 +1122,33 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@rspack/core@npm:0.5.2-canary-10e7787-20240124092141":
+  version: 0.5.2-canary-10e7787-20240124092141
+  resolution: "@rspack/core@npm:0.5.2-canary-10e7787-20240124092141"
+  dependencies:
+    "@module-federation/runtime-tools": "npm:0.0.8"
+    "@rspack/binding": "npm:0.5.2-canary-10e7787-20240124092141"
+    browserslist: "npm:^4.21.3"
+    enhanced-resolve: "npm:5.12.0"
+    events: "npm:^3.3.0"
+    graceful-fs: "npm:4.2.10"
+    json-parse-even-better-errors: "npm:^3.0.0"
+    neo-async: "npm:2.6.2"
+    tapable: "npm:2.2.1"
+    terminal-link: "npm:^2.1.1"
+    watchpack: "npm:^2.4.0"
+    webpack-sources: "npm:3.2.3"
+    zod: "npm:^3.21.4"
+    zod-validation-error: "npm:1.3.1"
+  peerDependencies:
+    "@swc/helpers": ">=0.5.1"
+  peerDependenciesMeta:
+    "@swc/helpers":
+      optional: true
+  checksum: 2f6ccf19785e451a91fb1303a1ca2221d544076268d89647385213e8018c29a4b62aeb7f9d44f68e771d4b7b9e82290c6e3ca10b225c886b1638829ca3341965
+  languageName: node
+  linkType: hard
+
 "@rspack/dev-server@npm:0.5.1":
   version: 0.5.1
   resolution: "@rspack/dev-server@npm:0.5.1"
@@ -1069,6 +1166,24 @@ __metadata:
   peerDependencies:
     "@rspack/core": "*"
   checksum: 568d9e466b5370e233ec443e51c2b990471648d30e7e75721f53d52de2306f53702a7c65f541541ca6df3d1023677f52699e878d8d4aedd011adafead3c8aa80
+  languageName: node
+  linkType: hard
+
+"@rspack/dev-server@npm:0.5.2-canary-10e7787-20240124092141":
+  version: 0.5.2-canary-10e7787-20240124092141
+  resolution: "@rspack/dev-server@npm:0.5.2-canary-10e7787-20240124092141"
+  dependencies:
+    chokidar: "npm:3.5.3"
+    connect-history-api-fallback: "npm:2.0.0"
+    express: "npm:4.18.1"
+    http-proxy-middleware: "npm:2.0.6"
+    mime-types: "npm:2.1.35"
+    webpack-dev-middleware: "npm:6.0.2"
+    webpack-dev-server: "npm:4.13.1"
+    ws: "npm:8.8.1"
+  peerDependencies:
+    "@rspack/core": "*"
+  checksum: 184aedb00d19008d190006ff6eebf371cbb3faaeae2d48f82fe1fa306beac3fd99d9e44b60ea91d917896c54e0a3850fe55e690a602af928c34165c67b67c85b
   languageName: node
   linkType: hard
 
@@ -1981,36 +2096,6 @@ __metadata:
   checksum: 57b06ae984bc32a0d22592c87384cd88fe4511b1dd7581497831c56d41939c8a001b28e7b853e1450f2bf61992dfcaa8ae2d0d161a0a90c4fb631ef07098fbac
   languageName: node
   linkType: hard
-
-"api-b06d64@workspace:rspack/api":
-  version: 0.0.0-use.local
-  resolution: "api-b06d64@workspace:rspack/api"
-  dependencies:
-    "@babel/core": "npm:^7.23.7"
-    "@loadable/babel-plugin": "npm:^5.16.1"
-    "@loadable/component": "npm:^5.16.3"
-    "@loadable/server": "npm:^5.16.2"
-    "@loadable/webpack-plugin": "npm:^5.15.2"
-    "@rspack/cli": "npm:0.5.1"
-    "@rspack/core": "npm:0.5.1"
-    "@rspack/plugin-react-refresh": "npm:0.5.1"
-    "@types/lodash": "npm:^4.14.202"
-    "@types/react": "npm:18"
-    "@types/react-dom": "npm:18"
-    babel-loader: "npm:^9.1.3"
-    express: "npm:^4.18.2"
-    html-webpack-plugin: "npm:^5.6.0"
-    less: "npm:^4.2.0"
-    less-loader: "npm:^12.1.0"
-    lodash: "npm:^4.17.21"
-    react: "npm:18"
-    react-dom: "npm:18"
-    react-refresh: "npm:^0.14.0"
-    webpack: "npm:5"
-    webpack-dev-middleware: "npm:^7.0.0"
-    webpack-hot-middleware: "npm:^2.26.0"
-  languageName: unknown
-  linkType: soft
 
 "arg@npm:^5.0.2":
   version: 5.0.2
@@ -3298,7 +3383,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"events@npm:^3.2.0":
+"events@npm:^3.2.0, events@npm:^3.3.0":
   version: 3.3.0
   resolution: "events@npm:3.3.0"
   checksum: d6b6f2adbccbcda74ddbab52ed07db727ef52e31a61ed26db9feb7dc62af7fc8e060defa65e5f8af9449b86b52cc1a1f6a79f2eafcf4e62add2b7a1fa4a432f6
@@ -4753,6 +4838,36 @@ __metadata:
   checksum: 8593d547a3e7651555a2c51bac8b148b37ec14e75e6e28ee4ddf27eb49cbcb4b558e50cdefa97d6942a8120fc744ace0d61c43d4c246e098c8828269b14cf5fb
   languageName: node
   linkType: hard
+
+"loadable-84bfb6@workspace:rspack/loadable":
+  version: 0.0.0-use.local
+  resolution: "loadable-84bfb6@workspace:rspack/loadable"
+  dependencies:
+    "@babel/core": "npm:^7.23.7"
+    "@loadable/babel-plugin": "npm:^5.16.1"
+    "@loadable/component": "npm:^5.16.3"
+    "@loadable/server": "npm:^5.16.2"
+    "@loadable/webpack-plugin": "npm:^5.15.2"
+    "@rspack/cli": "npm:0.5.2-canary-10e7787-20240124092141"
+    "@rspack/core": "npm:0.5.2-canary-10e7787-20240124092141"
+    "@rspack/plugin-react-refresh": "npm:0.5.1"
+    "@types/lodash": "npm:^4.14.202"
+    "@types/react": "npm:18"
+    "@types/react-dom": "npm:18"
+    babel-loader: "npm:^9.1.3"
+    express: "npm:^4.18.2"
+    html-webpack-plugin: "npm:^5.6.0"
+    less: "npm:^4.2.0"
+    less-loader: "npm:^12.1.0"
+    lodash: "npm:^4.17.21"
+    react: "npm:18"
+    react-dom: "npm:18"
+    react-refresh: "npm:^0.14.0"
+    webpack: "npm:5"
+    webpack-dev-middleware: "npm:^7.0.0"
+    webpack-hot-middleware: "npm:^2.26.0"
+  languageName: unknown
+  linkType: soft
 
 "loader-runner@npm:^4.2.0":
   version: 4.3.0
