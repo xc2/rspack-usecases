@@ -1,6 +1,6 @@
 {
   "private": true,
-  "packageManager": "yarn@4.0.2",
+  "packageManager": "pnpm@8.15.1",
   "workspaces": [
     "rspack/*",
     "rsbuild/*",
@@ -11,9 +11,19 @@
     "prettier": "^3.1.1",
     "typescript": "5"
   },
-  "resolutions": {
-    "webpack": "5.89.0",
-    "webpack-cli": "5.1.4",
-    "typescript": "5"
+  "pnpm": {
+    "overrides": {
+      "webpack": "5.89.0",
+      "webpack-cli": "5.1.4",
+      "typescript": "5",
+      "@rspack/cli@workspace:0.0.0": "0.5.4",
+      "@rspack/core@workspace:0.0.0": "0.5.4",
+      "@rspack/plugin-react-refresh@workspace:0.0.0": "0.5.4",
+      "@rsbuild/core@workspace:0.0.0": "0.4.0",
+      "@rsbuild/plugin-babel@workspace:0.0.0": "0.4.0",
+      "@rsbuild/plugin-vue2@workspace:0.0.0": "0.4.0",
+      "@rsbuild/plugin-vue2-jsx@workspace:0.0.0": "0.4.0",
+      "@rsbuild/plugin-umd@workspace:0.0.0": "0.4.0"
+    }
   }
 }

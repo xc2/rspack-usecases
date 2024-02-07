@@ -5,8 +5,8 @@
     "wp": "rm -rf dist && webpack --config rspack.config.js"
   },
   "dependencies": {
-    "@rspack/cli": "0.5.2-canary-10e7787-20240124092141",
-    "@rspack/core": "0.5.2-canary-10e7787-20240124092141",
+    "@rspack/cli": "workspace:0.0.0",
+    "@rspack/core": "workspace:0.0.0",
     "@wasm-fmt/ruff_fmt": "^0.5.0",
     "webpack": "5"
   }

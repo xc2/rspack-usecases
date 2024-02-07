@@ -1,6 +1,6 @@
 const InterpolateHtmlPlugin = require("./cra-interpolate-html-plugin");
 const { getClientEnvironment } = require("./cra-config");
-const HtmlWebpackPlugin = require("@rspack/plugin-html").default;
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const publicUrl = "/";
 const env = getClientEnvironment(publicUrl);

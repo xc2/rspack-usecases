@@ -5,8 +5,8 @@
     "webpack:build": "webpack build -c rspack.config.js"
   },
   "dependencies": {
-    "@rspack/cli": "0.5.2-canary-10e7787-20240124092141",
-    "@rspack/core": "0.5.2-canary-10e7787-20240124092141",
+    "@rspack/cli": "workspace:0.0.0",
+    "@rspack/core": "workspace:0.0.0",
     "css-loader": "^6.9.1",
     "postcss": "^8.4.33",
     "postcss-loader": "^8.0.0",
