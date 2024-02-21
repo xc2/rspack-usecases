@@ -9,6 +9,6 @@
     "@rsbuild/plugin-vue2": "workspace:0.0.0",
     "@rsbuild/plugin-vue2-jsx": "workspace:0.0.0",
     "typescript": "workspace:0.0.0",
-    "vue": "2"
+    "vue": "^2.7.16"
   }
 }
