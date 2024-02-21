@@ -1,0 +1,5 @@
+/* just a placeholder file for rspack compatibility */
+/* nothing needed in this file */
+
+/* please add `"uno.css$": require("node:path").resolve(__dirname, "__uno.css"),` */
+/* to `resolve.alias` in rspack.config.js */
