@@ -9,13 +9,14 @@
   "dependencies": {
     "oxlint": "^0.0.20",
     "prettier": "^3.1.1",
-    "typescript": "5"
+    "typescript": "workspace:0.0.0"
   },
   "pnpm": {
     "overrides": {
-      "webpack": "5.89.0",
-      "webpack-cli": "5.1.4",
-      "typescript": "5",
+      "webpack@workspace:0.0.0": "5.89.0",
+      "webpack-cli@workspace:0.0.0": "5.1.4",
+      "typescript@workspace:0.0.0": "5.3.3",
+      "html-webpack-plugin@workspace:0.0.0": "5.6.0",
       "@rspack/cli@workspace:0.0.0": "0.5.4",
       "@rspack/core@workspace:0.0.0": "0.5.4",
       "@rspack/plugin-react-refresh@workspace:0.0.0": "0.5.4",

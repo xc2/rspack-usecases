@@ -6,7 +6,7 @@
   "dependencies": {
     "@rsbuild/core": "workspace:0.0.0",
     "@rsbuild/plugin-vue2": "workspace:0.0.0",
-    "typescript": "5",
+    "typescript": "workspace:0.0.0",
     "vue": "2.6.11",
     "vue-template-compiler": "2.6.11"
   },

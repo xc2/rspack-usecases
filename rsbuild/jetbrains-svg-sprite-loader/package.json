@@ -8,6 +8,6 @@
     "heroicons": "^2.0.18",
     "svg-sprite-loader": "^6.0.11",
     "svgo-loader": "^4.0.0",
-    "typescript": "5"
+    "typescript": "workspace:0.0.0"
   }
 }

@@ -7,6 +7,6 @@
   "dependencies": {
     "@rsbuild/core": "workspace:0.0.0",
     "css-loader": "^6.9.1",
-    "typescript": "5"
+    "typescript": "workspace:0.0.0"
   }
 }
