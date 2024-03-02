@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "rsbuild build",
+    "start": "rsbuild dev"
+  },
+  "exports": {
+    ".": "./src"
+  },
+  "dependencies": {
+    "@rsbuild/core": "workspace:0.0.0",
+    "typescript": "workspace:0.0.0"
+  }
+}

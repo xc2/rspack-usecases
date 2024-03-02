@@ -3,3 +3,4 @@ packages:
   - "rspack/*"
   - "rsbuild/*"
   - "qiankun/*"
+  - "play/*"

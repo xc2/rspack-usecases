@@ -17,14 +17,14 @@
       "webpack-cli@workspace:0.0.0": "5.1.4",
       "typescript@workspace:0.0.0": "5.3.3",
       "html-webpack-plugin@workspace:0.0.0": "5.6.0",
-      "@rspack/cli@workspace:0.0.0": "0.5.4",
-      "@rspack/core@workspace:0.0.0": "0.5.4",
-      "@rspack/plugin-react-refresh@workspace:0.0.0": "0.5.4",
-      "@rsbuild/core@workspace:0.0.0": "0.4.0",
-      "@rsbuild/plugin-babel@workspace:0.0.0": "0.4.0",
-      "@rsbuild/plugin-vue2@workspace:0.0.0": "0.4.0",
-      "@rsbuild/plugin-vue2-jsx@workspace:0.0.0": "0.4.0",
-      "@rsbuild/plugin-umd@workspace:0.0.0": "0.4.0"
+      "@rspack/cli@workspace:0.0.0": "0.5.5",
+      "@rspack/core@workspace:0.0.0": "0.5.5",
+      "@rspack/plugin-react-refresh@workspace:0.0.0": "0.5.5",
+      "@rsbuild/core@workspace:0.0.0": "0.4.9",
+      "@rsbuild/plugin-babel@workspace:0.0.0": "0.4.9",
+      "@rsbuild/plugin-vue2@workspace:0.0.0": "0.4.9",
+      "@rsbuild/plugin-vue2-jsx@workspace:0.0.0": "0.4.9",
+      "@rsbuild/plugin-umd@workspace:0.0.0": "0.4.9"
     }
   }
 }
