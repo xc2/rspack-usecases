@@ -1,3 +1,6 @@
+# for local development
+/pnpm-overrides.json
+
 **/node_modules/.*
 **/node_modules/*
 !**/node_modules/@internals

@@ -1,4 +1,5 @@
 {
+  "$workspaceroot": true,
   "private": true,
   "packageManager": "pnpm@8.15.1",
   "workspaces": [
@@ -7,8 +8,7 @@
     "qiankun/*"
   ],
   "dependencies": {
-    "oxlint": "^0.0.20",
-    "prettier": "^3.1.1",
+    "@biomejs/biome": "^1.6.4",
     "typescript": "workspace:0.0.0"
   },
   "pnpm": {
@@ -17,14 +17,17 @@
       "webpack-cli@workspace:0.0.0": "5.1.4",
       "typescript@workspace:0.0.0": "5.3.3",
       "html-webpack-plugin@workspace:0.0.0": "5.6.0",
-      "@rspack/cli@workspace:0.0.0": "0.5.5",
-      "@rspack/core@workspace:0.0.0": "0.5.5",
-      "@rspack/plugin-react-refresh@workspace:0.0.0": "0.5.5",
-      "@rsbuild/core@workspace:0.0.0": "0.4.9",
-      "@rsbuild/plugin-babel@workspace:0.0.0": "0.4.9",
-      "@rsbuild/plugin-vue2@workspace:0.0.0": "0.4.9",
-      "@rsbuild/plugin-vue2-jsx@workspace:0.0.0": "0.4.9",
-      "@rsbuild/plugin-umd@workspace:0.0.0": "0.4.9"
+      "@rspack/cli@workspace:0.0.0": "0.6.1",
+      "@rspack/core@workspace:0.0.0": "0.6.1",
+      "@rspack/plugin-react-refresh@workspace:0.0.0": "0.6.1",
+      "@rspack/cli@workspace:0.0.999": "link:../rspack/packages/rspack-cli",
+      "@rspack/core@workspace:0.0.999": "link:../rspack/packages/rspack",
+      "@rspack/plugin-react-refresh@workspace:0.0.999": "link:../rspack/packages/rspack-plugin-react-refresh",
+      "@rsbuild/core@workspace:0.0.0": "0.6.1",
+      "@rsbuild/plugin-babel@workspace:0.0.0": "0.6.1",
+      "@rsbuild/plugin-vue2@workspace:0.0.0": "0.6.1",
+      "@rsbuild/plugin-vue2-jsx@workspace:0.0.0": "0.6.1",
+      "@rsbuild/plugin-umd@workspace:0.0.0": "0.6.1"
     }
   }
 }
