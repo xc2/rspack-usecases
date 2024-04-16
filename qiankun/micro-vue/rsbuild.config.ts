@@ -17,6 +17,9 @@ export default defineConfig({
         umdNamedDefine: true,
       });
     },
+    rspack(config) {
+      return config;
+    },
   },
   output: {
     cleanDistPath: true,

@@ -6,7 +6,7 @@ module.exports = /** @type {import('@rspack/core').Configuration} */ ({
     extensions: ["...", ".ts"],
   },
   module: {
-    rules: [{ test: /\.ts$/, loader: "builtin:swc-loader" }],
+    // rules: [{ test: /\.ts$/, loader: "builtin:swc-loader" }],
   },
   plugins: [new HtmlWebpackPlugin({ template: "./public/index.html" })],
 });

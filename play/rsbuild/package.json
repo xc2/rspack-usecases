@@ -1,14 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "build": "rsbuild build",
+    "build": "JITI_CACHE=false rsbuild build",
     "start": "rsbuild dev"
   },
-  "exports": {
-    ".": "./src"
-  },
+  "exports": {},
   "dependencies": {
     "@rsbuild/core": "workspace:0.0.0",
-    "typescript": "workspace:0.0.0"
+    "typescript": "workspace:0.0.0",
+    "sass-loader": "^14.2.0",
+    "sass": "^1.75.0"
   }
 }
