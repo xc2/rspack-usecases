@@ -8,6 +8,7 @@
     "@rsbuild/core": "workspace:0.0.0",
     "@rsbuild/plugin-vue2": "workspace:0.0.0",
     "typescript": "workspace:0.0.0",
-    "vue": "^2.7.16"
+    "vue": "^2.7.16",
+    "tailwindcss": "^3.4.3"
   }
 }

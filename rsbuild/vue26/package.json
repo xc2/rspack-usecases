@@ -1,11 +1,14 @@
 {
   "private": true,
   "scripts": {
-    "build": "rsbuild build"
+    "build": "rsbuild build",
+    "dev": "rsbuild dev"
   },
   "dependencies": {
     "@rsbuild/core": "workspace:0.0.0",
     "@rsbuild/plugin-vue2": "workspace:0.0.0",
+    "@rsbuild/plugin-vue2-jsx": "workspace:0.0.0",
+    "@rsbuild/plugin-babel": "workspace:0.0.0",
     "typescript": "workspace:0.0.0",
     "vue": "2.6.11",
     "vue-template-compiler": "2.6.11"
