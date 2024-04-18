@@ -7,8 +7,8 @@
   "dependencies": {
     "@rspack/cli": "workspace:0.0.0",
     "@rspack/core": "workspace:0.0.0",
-    "@unocss/webpack": "^0.58.5",
-    "@unocss/preset-uno": "^0.58.5",
-    "unocss": "^0.58.5"
+    "@unocss/webpack": "^0.59.4",
+    "@unocss/preset-uno": "^0.59.4",
+    "unocss": "^0.59.4"
   }
 }
