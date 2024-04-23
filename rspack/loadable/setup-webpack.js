@@ -38,15 +38,16 @@ function getWebpackConfig(server = false) {
       server ? null : new ReactRefreshPlugin(),
       new LoadablePlugin({ filename: Demo.statsFilename }),
     ].filter(Boolean),
-    builtins: {
-      css: {
-        modules: {
+    module: {
+      parser: {
+        "css/module": { namedExports: false },
+      },
+      generator: {
+        "css/module": {
           localIdentName: "[name]__[local]",
           exportsOnly: server,
         },
       },
-    },
-    module: {
       rules: [
         {
           test: /\.scss$/,
@@ -127,12 +128,12 @@ function setupWebpack() {
 
   const loadServerStats = () =>
     loadStats(
-      NodePath.resolve(serverCompiler.options.output.path, Demo.statsFilename),
+      NodePath.resolve(serverCompiler.options.output.path, Demo.statsFilename)
     );
   const loadClientStats = () => {
     return loadStats(
       NodePath.resolve(clientCompiler.options.output.path, Demo.statsFilename),
-      devMiddleware.context.outputFileSystem.promises,
+      devMiddleware.context.outputFileSystem.promises
     );
   };
   return {
